@@ -126,8 +126,6 @@ while run:
                     grid[row][column] = False #kill cell
                 living_neighbors = 0
         iteration += 1
-        print(iteration)
         draw_grid()
-
 
 pygame.quit()
